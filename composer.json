@@ -1,0 +1,40 @@
+{
+    "name": "dazzlesoftware/router",
+    "type": "library",
+    "description": "Dazzle Router Package",
+    "keywords": ["dazzle", "framework", "router"],
+    "homepage": "https://github.com/dazzle-framework/router",
+    "license": "GPL-3.0-or-later",
+    "require": {
+        "php": "^7.3.0"
+    },
+    "require-dev": {
+        "jeremeamia/superclosure": "^2.4",
+        "dazzlesoftware/dazzle-coding-standard": "^1.0",
+        "dazzlesoftware/console": "^1.0",
+        "phpunit/phpunit": "^9.0"
+    },
+    "conflict": {
+        "jeremeamia/superclosure": "<2.4"
+    },
+    "suggest": {
+        "jeremeamia/superclosure": "If you use Closure based controllers and want to be able to serialize the router, please install jeremeamia/superclosure",
+        "dazzlesoftware/console": "If you want to use the DebugRouterCommand class, please install dazzlesoftware/console"
+    },
+    "autoload": {
+        "psr-4": {
+            "Dazzle\\Router\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Dazzle\\Router\\UnitTests\\": "tests/"
+        }
+    },
+    "minimum-stability": "dev",
+    "extra": {
+        "branch-alias": {
+            "dev-2.0-dev": "2.0-dev"
+        }
+    }
+}
