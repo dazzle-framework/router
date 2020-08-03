@@ -10,8 +10,8 @@
     },
     "require-dev": {
         "jeremeamia/superclosure": "^2.4",
-        "dazzlesoftware/dazzle-coding-standard": "^1.0",
-        "dazzlesoftware/console": "^1.0",
+        "dazzlesoftware/dazzle-coding-standard": "^1.0|^2.0",
+        "dazzlesoftware/console": "^1.0|^2.0",
         "phpunit/phpunit": "^9.0"
     },
     "conflict": {
@@ -34,7 +34,8 @@
     "minimum-stability": "dev",
     "extra": {
         "branch-alias": {
-            "dev-2.0-dev": "2.0-dev"
+            "dev-master": "1.x-dev",
+            "dev-develop": "2.x-dev"
         }
     }
 }
